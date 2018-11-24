@@ -54,6 +54,7 @@
     
 #include <stddef.h>
 #include <stdint.h>
+#include <stdlib.h>
     
 #define SHA512_DIGEST_LENGTH 64
     
