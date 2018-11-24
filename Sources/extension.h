@@ -374,6 +374,8 @@ h = temp1 + temp2;                       \
         
         // now copy the aggregated hash into buffer again
         memcpy(buffer, hash, SHA512_DIGEST_LENGTH);
+        free(hash);
+        free(combined);
         
     }
     
