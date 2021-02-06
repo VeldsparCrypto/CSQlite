@@ -1,12 +1,10 @@
 module CSQLiteLinux [system] {
     header "/usr/include/sqlite3.h"
-    header "Sources/extension.h"
     link "sqlite3"
     export *
 }
 module CSQLiteDarwin [system] {
     header "/usr/local/opt/sqlite/include/sqlite3.h"
-    header "sources/extension.h"
     link "sqlite3"
     export *
 }
